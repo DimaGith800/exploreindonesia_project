@@ -1,0 +1,1183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "adaptive";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(img/grandcanyon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &_top {
+        width: 100%;
+        max-width: 1751px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 28px;
+
+        &--container {
+            width: 100%;
+            max-width: 1502px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &--nav {
+                width: 100%;
+                max-width: 572px;
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+
+            &--interact {
+                width: 100%;
+                max-width: 88px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &--menu {
+                    display: none;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+
+        &--menu {
+            display: none;
+        }
+    }
+
+    &_explore {
+        width: 100%;
+        max-width: 1686px;
+        margin: 0 auto;
+        margin-top: 135px;
+        margin-bottom: 160px;
+
+        &--container {
+            width: 100%;
+            max-width: 835px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &--slider {
+                &--number {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #FFFFFF;
+                    box-shadow: 0px 0px 4px 0px #0000001A;
+                    transform: rotate(-90deg);
+                    margin-top: 20px;
+                }
+            }
+
+            &--content {
+                &--title {
+                    font-family: Roboto;
+                    font-weight: 900;
+                    font-size: 120px;
+                    line-height: 130px;
+                    letter-spacing: 0%;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    width: 628px;
+                    margin-bottom: 28px;
+                }
+
+                &--button {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 150%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    vertical-align: middle;
+                    background-color: #DD2242;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                    padding: 26px 64px;
+                    border-radius: 211px;
+
+                }
+            }
+        }
+    }
+
+    &_info {
+        display: flex;
+
+        &--letters {
+            width: 100%;
+            max-width: 212px;
+            margin: 0 auto;
+            display: flex;
+            position: relative;
+            width: 212px;
+
+            &--text {
+                font-family: DM Sans;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #FFFFFF;
+                box-shadow: 0px 0px 4px 0px #0000001A;
+                transform-origin: top left; 
+                transform: rotate(-90deg);
+                position: absolute;
+                bottom: 44px;
+                left: 65px;
+                width: 100%;
+                max-width: 131px;
+            }
+        }
+
+        &--container {
+            width: 100%;
+            max-width: 1642px;
+            display: flex;
+            align-items: flex-end;
+
+            &--content {
+                width: 100%;
+                max-width: 1225px;
+                background-color: #000000;
+                opacity: 70%;
+
+                &--wrapper {
+                    width: 100%;
+                    max-width: 1026px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-top: 40px;
+                    padding-bottom: 50px;
+
+                    &--infobox {
+                        width: 100%;
+                        max-width: 210px;
+
+                        &--number {
+                            font-family: Roboto;
+                            font-weight: 900;
+                            font-size: 16px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            text-transform: uppercase;
+                            color: #DD2242;
+                            margin-bottom: 14px;
+                        }
+
+                        &--title {
+                            font-family: DM Sans;
+                            font-weight: 700;
+                            font-size: 26.41px;
+                            line-height: 41.08px;
+                            letter-spacing: 0px;
+                            color: #FFFFFF;
+                        }
+
+                        &--desc {
+                            font-family: DM Sans;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 28px;
+                            letter-spacing: 0.5px;
+                            color: #939393;
+                        }
+                    }
+                }
+            }
+
+            &--video {
+                position: relative;
+
+                &--play {
+                    position: absolute;
+                    top: 88px;
+                    left: 169px;
+                    right: 170px;
+                    bottom: 88px;
+                    padding: 17px 17px;
+                    border-radius: 50%;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    box-shadow: 0px 0px 50px 0px #00000080;
+                }
+            }
+        }
+    }
+}
+
+main {
+    .articles {
+        background: linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%);
+
+        &_walkways {
+            background: 
+                linear-gradient(rgba(1, 10, 32, 0.7), rgba(1, 10, 32, 0.7)), 
+                url(img/bghills.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 207px;
+            padding-bottom: 97px;
+
+            &--container {
+                width: 100%;
+                max-width: 1240px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &--content {
+                    width: 100%;
+                    max-width: 479px;
+
+                    &--title {
+                        font-family: DM Sans;
+                        font-weight: 700;
+                        font-size: 42px;
+                        line-height: 50px;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                    }
+
+                    &--desc {
+                        font-family: DM Sans;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 1%;
+                        color: #E0E0E0;
+                        margin-top: 32px;
+                        margin-bottom: 32px;
+                        width: 400px;
+                    }
+                    
+                    &--mobiledesc {
+                        display: none;
+                    }
+
+                    &--button {
+                        font-family: DM Sans;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 150%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: #FFFFFF;
+                        background-color: #DD2242;
+                        border: none;
+                        outline: none;
+                        border-radius: 32px;
+                        padding: 16px 40px;
+                    }
+                }
+            }
+        }
+
+        &_beaches {
+            background: 
+                linear-gradient(rgba(1, 10, 32, 0.7), rgba(1, 10, 32, 0.7)), 
+                url(img/bgpalms.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 106px;
+            padding-bottom: 305px;
+
+            &--container {
+                width: 100%;
+                max-width: 1302px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &--content {
+                    width: 100%;
+                    max-width: 479px;
+
+                    &--title {
+                        font-family: DM Sans;
+                        font-weight: 700;
+                        font-size: 42px;
+                        line-height: 50px;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                    }
+
+                    &--desc {
+                        font-family: DM Sans;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 1%;
+                        color: #E0E0E0;
+                        margin-top: 32px;
+                        margin-bottom: 32px;
+                        width: 400px;
+                    }
+
+                    &--mobiledesc {
+                        display: none;
+                    }
+
+                    &--button {
+                        font-family: DM Sans;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 150%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: #FFFFFF;
+                        background-color: #DD2242;
+                        border: none;
+                        outline: none;
+                        border-radius: 32px;
+                        padding: 16px 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .explore {
+        background-image: url(img/lonewarrior.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 127px;
+
+        &_container {
+            position: relative; // Батьківський елемент для позиціонування
+            max-width: 1277px; // Центрування
+            margin: auto; // Центрування
+            padding-bottom: 886px;
+
+            &--title {
+                font-family: DM Sans;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 150%;
+                letter-spacing: 0%;
+                text-align: center;
+                vertical-align: middle;
+                color: #010A20;
+                margin-bottom: 45px;
+            }
+
+            &--slider {
+                position: relative;
+                width: 100%;
+                max-width: 1277px;
+                margin: auto;
+                overflow: hidden;
+                border-radius: 10px;
+                text-align: center;
+
+                &--slides {
+                    display: flex;
+                    transition: transform 0.5s ease-in-out;
+                    width: calc(7 * 405px + 6 * 31px); 
+
+                    &--slide {
+                        min-width: 405px;
+                        max-width: 405px;
+                        margin-right: 31px;
+                        width: 100%;
+                        display: block;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                        
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+
+                &--dots {
+                    text-align: center;
+                    margin-top: 28px;
+
+                    &--dot {
+                        display: inline-block;
+                        width: 15px;
+                        height: 15px;
+                        margin: 0 5px;
+                        border-radius: 50%;
+                        background-color: #85A3B2;
+                        cursor: pointer;
+                        transition: all 0.5s ease;
+
+                        &.active {
+                            background-color: #DD2242;
+                            width: 40px;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+
+            &--previous,
+            &--next {
+                position: absolute;
+                top: 21%;
+                transform: translateY(-50%);
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                z-index: 10;
+                
+                svg {
+                    width: 14px; 
+                    height: 23px;
+                    fill: #020B20; 
+                }
+            }
+
+            &--previous {
+                left: -35px;
+            }
+
+            &--next {
+                right: -35px;
+            }
+        }
+
+        &_numbers {
+            background-color: #020C21;
+            opacity: 90%;
+            padding-top: 201px;
+            padding-bottom: 225px;
+
+            &--info {
+                width: 100%;
+                max-width: 485px;
+                margin: 0 auto;
+
+                &--title {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 150%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: #FFFFFF;
+                    margin-bottom: 37px;
+                }
+
+                &--desc {
+                    font-family: DM Sans;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                    color: #E0E0E0;
+                }
+            }
+
+            &--container {
+                width: 100%;
+                max-width: 1275px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin-top: 39px;
+
+                &--content {
+                    width: 340px;
+
+                    &--number {
+                        font-family: DM Sans;
+                        font-weight: 700;
+                        font-size: 42.14px;
+                        line-height: 49.16px;
+                        letter-spacing: 0.39px;
+                        text-align: center;
+                        color: #DD2242;
+                        margin-bottom: 18px;
+                    }
+
+                    &--desc {
+                        font-family: DM Sans;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 0.5px;
+                        text-align: center;
+                        color: #E0E0E0;
+                    }
+
+                    &:nth-child(2) {
+                        .explore_numbers--container--content--desc {
+                            width: 370px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .unbelievable {
+        background-image: url(img/whangaehu.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 248px;
+        padding-bottom: 256px;
+
+        &_container {
+            width: 100%;
+            max-width: 614px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &--title {
+                font-family: DM Sans;
+                font-weight: 700;
+                font-size: 42px;
+                line-height: 50px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 32px;
+            }
+
+            &--desc {
+                font-family: DM Sans;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                margin-bottom: 36px;
+                color: #6F7787;
+                width: 470px;
+            }
+
+            &--mobiledesc {
+                font-family: DM Sans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                color: #6F7787;
+                display: none;
+            }
+
+            &--button {
+                font-family: DM Sans;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 150%;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 18px 56px;
+                background-color: #DD2242;
+                border: none;
+                outline: none;
+                border-radius: 122px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .news {
+        background-image: linear-gradient(rgba(2, 12, 33, 0.46), rgba(2, 12, 33, 0.46)), url(img/palmsbg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #020C21;
+        padding-top: 141px;
+        padding-bottom: 210px;
+
+        &_container {
+            width: 100%;
+            max-width: 1285px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &--title {
+                font-family: DM Sans;
+                font-weight: 700;
+                font-size: 42px;
+                line-height: 50px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #FFFFFF;
+                width: 1056px;
+                margin-bottom: 67px;
+            }
+
+            &--video {
+                position: relative;
+
+                &--play {
+                    position: absolute;
+                    top: 249px;
+                    right: 480px;
+                    font-family: FontAwesome;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 100%;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    vertical-align: middle;
+                    padding: 41px 46px;
+                    background-color: #E93A7D;
+                    border: none;
+                    outline: none;
+                    border-radius: 100px;
+                    cursor: pointer;
+                }
+            }
+
+            &--other {
+                width: 100%;
+                max-width: 1285px;
+                margin: 0 auto;
+                margin-top: 125px;
+                display: flex;
+                justify-content: space-between;
+
+                &--novelty {
+                    width: 100%;
+                    max-width: 604px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    &--img {
+                        position: relative;
+
+                        &--play {
+                            position: absolute;
+                            top: 61px;
+                            right: 107px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    &--info {
+                        width: 100%;
+                        max-width: 334px;
+
+                        &--title {
+                            font-family: DM Sans;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 150%;
+                            letter-spacing: 0%;
+                            color: #FFFFFF;
+                            margin-bottom: 15px;
+                        }
+
+                        &--desc {
+                            font-family: DM Sans;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 28px;
+                            letter-spacing: 0.5px;
+                            color: #FFFFFF;
+                            opacity: 70%;
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        .news_container--other--novelty--info--desc {
+                            width: 325px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .gallery {
+        &_title {
+            font-family: DM Sans;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            text-align: center;
+            vertical-align: middle;
+            color: #010A20;
+            margin-top: 177px;
+            margin-bottom: 41px;
+        }
+
+        &_desc {
+            font-family: DM Sans;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 1%;
+            text-align: center;
+            color: #6F7787;
+            width: 511px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 71px;
+        }
+
+        &_container {
+            width: 100%;
+            max-width: 1170px;
+            margin: 0 auto;
+            display: grid;
+            gap: 30px;
+            margin-bottom: 229px;
+            
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 210px 130px 130px 210px;
+
+            grid-template-areas:
+                "india volcano china"
+                "india blueland china"
+                "india blueland coast"
+                "beach blueland coast";
+            
+            &--india { 
+                grid-area: india; 
+            }
+            
+            &--beach { 
+                grid-area: beach;
+            }
+            
+            &--volcano { 
+                grid-area: volcano; 
+            }
+            
+            &--blueland { 
+                grid-area: blueland;
+            }
+
+            &--china { 
+                grid-area: china; 
+            }
+            
+            &--coast { 
+                grid-area: coast; 
+            }
+        }
+    }
+
+    .steps {
+        background-color: #DCE8F2;
+        padding-top: 119px;
+        padding-bottom: 117px;
+
+        &_container {
+            width: 100%;
+            max-width: 1162px;
+            margin: 0 auto;
+
+            &--title {
+                font-family: DM Sans;
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 150%;
+                letter-spacing: 0%;
+                color: #010A20;
+                margin-bottom: 44px;
+            }
+
+            &--content {
+                width: 100%;
+                max-width: 1162px;
+                display: flex;
+                justify-content: space-between;
+
+                &--linensteps {
+                    background-image: url(img/Line.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 100%;
+                    max-height: 890px;
+
+                    &--numberone {
+                        font-family: DM Sans;
+                        font-weight: 500;
+                        font-size: 26.41px;
+                        line-height: 38.15px;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        background-color: #DD2242;
+                        padding: 12px 27px;
+                        border: none;
+                        outline: none;
+                        border-radius: 50%;
+                        margin-bottom: 220px;
+                    }
+
+                    &--numbertwo {
+                        font-family: DM Sans;
+                        font-weight: 500;
+                        font-size: 26.41px;
+                        line-height: 38.15px;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        background-color: #DD2242;
+                        padding: 12px 24px;
+                        border: none;
+                        outline: none;
+                        border-radius: 50%;
+                        margin-bottom: 495px;
+                    }
+
+                    &--numberthree {
+                        font-family: DM Sans;
+                        font-weight: 500;
+                        font-size: 26.41px;
+                        line-height: 38.15px;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        background-color: #DD2242;
+                        padding: 12px 24px;
+                        border: none;
+                        outline: none;
+                        border-radius: 50%;
+                    }
+                }
+
+                &--info {
+                    width: 100%;
+                    max-width: 1059px;
+
+                    &--box {
+                        &--step {
+                            font-family: DM Sans;
+                            font-weight: 500;
+                            font-size: 26.41px;
+                            line-height: 38.15px;
+                            letter-spacing: 0px;
+                            text-align: center;
+                            vertical-align: middle;
+                            color: #FFFFFF;
+                            border: none;
+                            outline: none;
+                            background-color: #DD2242;
+                            padding: 10px 24px;
+                            border-radius: 50%;
+                            display: none;
+                        }
+
+                        &--title {
+                            font-family: DM Sans;
+                            font-weight: 700;
+                            font-size: 26.41px;
+                            line-height: 41.08px;
+                            letter-spacing: 0px;
+                            color: #010A20;
+                            padding-top: 15px;
+                            margin-bottom: 28px;
+                        }
+
+                        &--desc {
+                            font-family: DM Sans;
+                            font-weight: 400;
+                            font-size: 23.47px;
+                            line-height: 38.15px;
+                            letter-spacing: 0px;
+                            color: #15143966;
+                        }
+
+                        &--mobiledesc {
+                            font-family: DM Sans;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.5px;
+                            text-align: center;
+                            color: #15143966;
+                            display: none;
+                        }
+
+                        &--more {
+                            font-family: DM Sans;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.5px;
+                            text-align: center;
+                            color: #dd2242;
+                            text-decoration: none;
+                            display: none;
+                        }
+                    }
+
+                    &--hotel {
+                        margin-top: 94px;
+                        margin-bottom: 97px;
+
+                        &--wrapper {
+                            &--step {
+                                font-family: DM Sans;
+                                font-weight: 500;
+                                font-size: 26.41px;
+                                line-height: 38.15px;
+                                letter-spacing: 0px;
+                                text-align: center;
+                                vertical-align: middle;
+                                color: #FFFFFF;
+                                background-color: #DD2242;
+                                padding: 10px 22px;
+                                border-radius: 50%;
+                                border: none;
+                                outline: none;
+                                display: none;
+                            }
+
+                            &--title {
+                                font-family: DM Sans;
+                                font-weight: 700;
+                                font-size: 26.41px;
+                                line-height: 41.08px;
+                                letter-spacing: 0px;
+                                color: #010A20;
+                                margin-bottom: 28px;
+                            }
+
+                            &--desc {
+                                font-family: DM Sans;
+                                font-weight: 400;
+                                font-size: 23.47px;
+                                line-height: 38.15px;
+                                letter-spacing: 0px;
+                                color: #15143966;
+                                margin-bottom: 94px;
+                            }
+
+                            &--mobiledesc {
+                                font-family: DM Sans;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: 0.5px;
+                                text-align: center;
+                                color: #15143966;
+                                display: none;
+                            }
+
+                            &--more {
+                                font-family: DM Sans;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: 0.5px;
+                                text-align: center;
+                                color: #dd2242;
+                                text-decoration: none;
+                                display: none;
+                            }
+                        }
+
+                        &--travelthere {
+                            width: 100%;
+                            max-width: 740px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            &--video {
+                                position: relative;
+
+                                &--play {
+                                    position: absolute; 
+                                    top: 73px;
+                                    right: 110px;
+                                    bottom: 69px;
+                                    left: 121px;
+                                }
+                            }
+
+                            &--details {
+                                width: 100%;
+                                max-width: 446px;
+
+                                &--title {
+                                    font-family: DM Sans;
+                                    font-weight: 700;
+                                    font-size: 26.41px;
+                                    line-height: 41.08px;
+                                    letter-spacing: 0px;
+                                    color: #010A20;
+                                    margin-bottom: 12px;
+                                }
+
+                                &--desc {
+                                    font-family: DM Sans;
+                                    font-weight: 400;
+                                    font-size: 23.47px; 
+                                    line-height: 38.15px;
+                                    letter-spacing: 0px;
+                                    color: #15143966;
+                                }
+
+                                &--mobiledesc {
+                                    font-family: DM Sans;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    letter-spacing: 0.5px;
+                                    text-align: center;
+                                    color: #15143966;
+                                    display: none;
+                                }
+
+                                &--more {
+                                    font-family: DM Sans;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    letter-spacing: 0.5px;
+                                    text-align: center;
+                                    color: #dd2242;
+                                    text-decoration: none;
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    &--button {
+                        font-family: DM Sans;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 150%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: #FFFFFF;
+                        padding: 18px 56px;
+                        border-radius: 122px;
+                        background-color: #DD2242;
+                        border: none;
+                        outline: none;
+                        margin-top: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #010A20;
+    position: relative;
+    padding-top: 39px;
+    padding-bottom: 31px;
+
+    &_scrolltotop {
+        position: absolute;
+        top: -57px;
+        right: 99px;
+        box-shadow: 0px 7px 10px 0px #00000033;
+        padding: 41px 33px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        background-color: #DD2242;
+        cursor: pointer;
+    }
+
+    &_container {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--content {
+            width: 100%;
+            max-width: 653px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &--nav {
+                width: 100%;
+                max-width: 355px;
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.5px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        &--media {
+            width: 100%;
+            max-width: 324px;
+            display: flex;
+            justify-content: space-between;
+
+            &--socials {
+                width: 100%;
+                max-width: 116px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &--copyright {
+                font-family: DM Sans;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.5px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

@@ -1,0 +1,1835 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@media (max-width: 1500px) {
+  body header .header_top {
+    max-width: 1190px;
+  }
+  body header .header_top--container {
+    max-width: 872px;
+  }
+  body header .header_explore {
+    max-width: 1100px;
+  }
+  body header .header_info {
+    align-items: flex-end;
+    justify-content: end;
+  }
+  body header .header_info--letters {
+    display: none;
+  }
+  body header .header_info--container {
+    max-width: 1180px;
+  }
+  body header .header_info--container--content {
+    max-width: 830px;
+  }
+  body header .header_info--container--content--wrapper {
+    max-width: 762px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  body header .header_info--container--video--itself {
+    width: 344px;
+  }
+  body header .header_info--container--video--play {
+    right: auto;
+    bottom: auto;
+    top: 65px;
+    left: 138px;
+  }
+  body main .articles_walkways--container {
+    max-width: 1200px;
+  }
+  body main .articles_beaches--container {
+    max-width: 1200px;
+  }
+  body main .explore_container--slider {
+    max-width: 1004px;
+  }
+  body main .explore_container--slider--slides {
+    width: 2384px;
+  }
+  body main .explore_container--slider--slides--slide {
+    min-width: 314px;
+    max-width: 314px;
+  }
+  body main .explore_container--previous {
+    left: 65px;
+  }
+  body main .explore_container--next {
+    right: 65px;
+  }
+  body main .explore_container--previous, body main .explore_container--next {
+    top: 20%;
+  }
+  body .footer_container {
+    max-width: 1155px;
+  }
+}
+@media (max-width: 1200px) {
+  body header .header_top {
+    max-width: 768px;
+  }
+  body header .header_top--container {
+    max-width: 560px;
+  }
+  body header .header_top--container--nav {
+    max-width: 447px;
+  }
+  body header .header_explore {
+    max-width: 757px;
+  }
+  body header .header_explore--container {
+    max-width: 757px;
+  }
+  body header .header_info {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: normal;
+  }
+  body header .header_info--letters {
+    display: none;
+  }
+  body header .header_info--container {
+    max-width: 768px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    margin-bottom: 40px;
+  }
+  body header .header_info--container--content {
+    max-width: 768px;
+  }
+  body header .header_info--container--content--wrapper {
+    max-width: 748px;
+  }
+  body main .articles_walkways {
+    padding-top: 100px;
+    padding-bottom: 45px;
+  }
+  body main .articles_walkways--container {
+    max-width: 760px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  body main .articles_walkways--container--content--title {
+    text-align: center;
+  }
+  body main .articles_walkways--container--content--desc {
+    text-align: center;
+    width: 479px;
+  }
+  body main .articles_walkways--container--content--button {
+    display: block;
+    margin: 0 auto;
+  }
+  body main .articles_beaches--container {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  body main .articles_beaches--container--content--title {
+    text-align: center;
+  }
+  body main .articles_beaches--container--content--desc {
+    text-align: center;
+    width: 479px;
+  }
+  body main .articles_beaches--container--content--button {
+    display: block;
+    margin: 0 auto;
+  }
+  body main .explore_container {
+    max-width: 900px;
+  }
+  body main .explore_container--slider {
+    max-width: 659px;
+    overflow: hidden;
+  }
+  body main .explore_container--slider--slides {
+    width: 2039px;
+  }
+  body main .explore_container--slider--slides--slide {
+    min-width: 314px;
+    max-width: 314px;
+    margin-right: 31px;
+  }
+  body main .explore_container--slider--slides--slide:first-child {
+    display: block;
+  }
+  body main .explore_container--previous {
+    left: 20px;
+  }
+  body main .explore_container--next {
+    right: 20px;
+  }
+  body main .explore_container--previous, body main .explore_container--next {
+    top: 19%;
+  }
+  body main .explore_numbers {
+    padding-top: 101px;
+    padding-bottom: 125px;
+  }
+  body main .explore_numbers--container {
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .explore_numbers--container--content {
+    margin-top: 40px;
+  }
+  body main .news_container {
+    max-width: 768px;
+  }
+  body main .news_container--title {
+    width: 746px;
+  }
+  body main .news_container--video--play {
+    top: 155px;
+    right: 330px;
+  }
+  body main .news_container--video img {
+    width: 746px;
+  }
+  body main .news_container--other {
+    max-width: 605px;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+  }
+  body main .gallery_container {
+    max-width: 753px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 210px;
+    grid-template-areas: "india volcano" "india blueland" "beach blueland" "china coast";
+    gap: 12px;
+  }
+  body main .steps_container {
+    max-width: 760px;
+  }
+  body main .steps_container--title {
+    text-align: center;
+  }
+  body main .steps_container--content {
+    max-width: 760px;
+  }
+  body main .steps_container--content--linensteps {
+    display: none;
+  }
+  body main .steps_container--content--info {
+    max-width: 760px;
+  }
+  body main .steps_container--content--info--box--step {
+    display: block;
+    margin: 0 auto;
+  }
+  body main .steps_container--content--info--box--title {
+    text-align: center;
+  }
+  body main .steps_container--content--info--box--desc {
+    text-align: center;
+  }
+  body main .steps_container--content--info--hotel--wrapper--step {
+    display: block;
+    margin: 0 auto;
+  }
+  body main .steps_container--content--info--hotel--wrapper--title {
+    text-align: center;
+    padding-top: 15px;
+  }
+  body main .steps_container--content--info--hotel--wrapper--desc {
+    text-align: center;
+  }
+  body main .steps_container--content--info--button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 27px;
+  }
+  body .footer_container {
+    flex-direction: column;
+    max-width: 655px;
+  }
+  body .footer_container--media {
+    margin-top: 64px;
+  }
+}
+@media (max-width: 768px) {
+  body header .header_top {
+    max-width: 319px;
+    padding-top: 48px;
+  }
+  body header .header_top--logo {
+    width: 149px;
+  }
+  body header .header_top--container {
+    max-width: 320px;
+    justify-content: normal;
+  }
+  body header .header_top--container--nav a {
+    display: none;
+  }
+  body header .header_top--container--interact {
+    max-width: 77px;
+  }
+  body header .header_top--container--interact--menu {
+    display: block;
+  }
+  body header .header_top--menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #766756;
+    z-index: 999;
+    padding: 40px 20px;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+  }
+  body header .header_top--menu.open {
+    right: 0;
+  }
+  body header .header_top--menu--close {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  body header .header_top--menu--close:hover svg {
+    fill: #2196F3;
+    transition: 0.3s ease-in-out;
+  }
+  body header .header_top--menu--close img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  body header .header_top--menu--nav {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  body header .header_top--menu--nav > a {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+  }
+  body header .header_explore {
+    margin-top: 45px;
+    margin-bottom: 54px;
+    max-width: 315px;
+  }
+  body header .header_explore--container {
+    max-width: 315px;
+  }
+  body header .header_explore--container--slider {
+    display: none;
+  }
+  body header .header_explore--container--content--title {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 58.15px;
+    line-height: 63px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    width: 314px;
+    margin-bottom: 8px;
+  }
+  body header .header_explore--container--content--button {
+    font-size: 18px;
+    padding: 21px 90px;
+  }
+  body header .header_info {
+    max-width: 314px;
+  }
+  body header .header_info--container {
+    max-width: 314px;
+  }
+  body header .header_info--container--content {
+    max-width: 314px;
+    opacity: 60%;
+  }
+  body header .header_info--container--content--wrapper {
+    padding-top: 35px;
+    flex-direction: column;
+    gap: 32px;
+  }
+  body header .header_info--container--content--wrapper--infobox--number {
+    margin-bottom: 4px;
+  }
+  body header .header_info--container--content--wrapper--infobox--desc {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  body header .header_info--container--video--itself {
+    width: 314px;
+  }
+  body header .header_info--container--video--play {
+    top: 57px;
+    left: 123px;
+  }
+  body main .articles_walkways {
+    padding-top: 40px;
+    padding-bottom: 38px;
+  }
+  body main .articles_walkways--container {
+    max-width: 315px;
+  }
+  body main .articles_walkways--container img {
+    width: 314px;
+  }
+  body main .articles_walkways--container--content {
+    max-width: 315px;
+  }
+  body main .articles_walkways--container--content--title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 292px;
+  }
+  body main .articles_walkways--container--content--desc {
+    display: none;
+  }
+  body main .articles_walkways--container--content--mobiledesc {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    width: 310px;
+    color: #E0E0E0;
+    text-align: left;
+    display: block;
+  }
+  body main .articles_walkways--container--content--button {
+    padding: 22px 108px;
+  }
+  body main .articles_beaches {
+    padding-top: 18px;
+    padding-bottom: 45px;
+  }
+  body main .articles_beaches--container {
+    max-width: 315px;
+  }
+  body main .articles_beaches--container img {
+    width: 314px;
+  }
+  body main .articles_beaches--container--content {
+    max-width: 315px;
+  }
+  body main .articles_beaches--container--content--title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 292px;
+  }
+  body main .articles_beaches--container--content--desc {
+    display: none;
+  }
+  body main .articles_beaches--container--content--mobiledesc {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    width: 310px;
+    color: #E0E0E0;
+    text-align: left;
+    display: block;
+  }
+  body main .articles_beaches--container--content--button {
+    padding: 22px 108px;
+  }
+  body main .explore {
+    padding-top: 25px;
+  }
+  body main .explore_container {
+    max-width: 358px;
+    padding-bottom: 695px;
+  }
+  body main .explore_container--title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    width: 314px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 23px;
+  }
+  body main .explore_container--slider {
+    max-width: 314px;
+  }
+  body main .explore_container--slider--dots {
+    margin-top: 16px;
+  }
+  body main .explore_container--previous {
+    left: 2px;
+  }
+  body main .explore_container--next {
+    right: 2px;
+  }
+  body main .explore_container--previous, body main .explore_container--next {
+    top: 22%;
+  }
+  body main .explore_numbers {
+    padding-top: 72px;
+    padding-bottom: 69px;
+  }
+  body main .explore_numbers--info {
+    max-width: 314px;
+  }
+  body main .explore_numbers--info--title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  body main .explore_numbers--info--desc {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+  body main .explore_numbers--container--content {
+    width: 314px;
+  }
+  body main .explore_numbers--container--content--number {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  body main .explore_numbers--container--content--desc {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+  body main .explore_numbers--container--content:nth-child(2) .explore_numbers--container--content--desc {
+    width: 314px;
+  }
+  body main .unbelievable {
+    background-image: url(img/whangaehumobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 171px;
+    padding-bottom: 116px;
+  }
+  body main .unbelievable_container {
+    max-width: 314px;
+  }
+  body main .unbelievable_container--desc {
+    display: none;
+  }
+  body main .unbelievable_container--mobiledesc {
+    display: block;
+    margin-bottom: 41px;
+  }
+  body main .unbelievable_container--button {
+    padding: 23px 107px;
+  }
+  body main .news {
+    background-image: url(img/newsbgmobile.png);
+    padding-top: 83px;
+    padding-bottom: 35px;
+  }
+  body main .news_container {
+    max-width: 314px;
+  }
+  body main .news_container--title {
+    width: 307px;
+  }
+  body main .news_container--video img {
+    width: 314px;
+  }
+  body main .news_container--video--play {
+    padding: 27px 29px;
+    top: 50px;
+    right: 120px;
+  }
+  body main .news_container--other {
+    margin-top: 40px;
+    max-width: 314px;
+    gap: 32px;
+  }
+  body main .news_container--other--novelty {
+    max-width: 314px;
+    flex-direction: column;
+  }
+  body main .news_container--other--novelty--img--itself {
+    width: 314px;
+  }
+  body main .news_container--other--novelty--img--play {
+    top: 94px;
+    right: 144px;
+  }
+  body main .news_container--other--novelty--info {
+    max-width: 314px;
+  }
+  body main .news_container--other--novelty--info--title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 19px;
+  }
+  body main .news_container--other--novelty--info--desc {
+    text-align: center;
+    width: 326px;
+  }
+  body main .gallery_title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 32px;
+    margin-bottom: 20px;
+  }
+  body main .gallery_desc {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    width: 314px;
+    margin-bottom: 40px;
+  }
+  body main .gallery_container {
+    max-width: 314px;
+    grid-template-rows: 86px;
+    margin-bottom: 40px;
+  }
+  body main .gallery_container--india {
+    width: 151px;
+  }
+  body main .gallery_container--beach {
+    width: 151px;
+  }
+  body main .gallery_container--volcano {
+    width: 151px;
+  }
+  body main .gallery_container--blueland {
+    width: 151px;
+  }
+  body main .gallery_container--china {
+    width: 150px;
+  }
+  body main .gallery_container--coast {
+    width: 150px;
+  }
+  body main .steps {
+    padding-top: 29px;
+    padding-bottom: 73px;
+  }
+  body main .steps_container {
+    max-width: 314px;
+  }
+  body main .steps_container--title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  body main .steps_container--content {
+    max-width: 314px;
+  }
+  body main .steps_container--content--info {
+    max-width: 314px;
+  }
+  body main .steps_container--content--info--box--title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 26px;
+    margin-bottom: 5px;
+  }
+  body main .steps_container--content--info--box--desc {
+    display: none;
+  }
+  body main .steps_container--content--info--box--mobiledesc {
+    display: block;
+  }
+  body main .steps_container--content--info--box--more {
+    display: block;
+  }
+  body main .steps_container--content--info--hotel {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  body main .steps_container--content--info--hotel--wrapper {
+    margin-bottom: 32px;
+  }
+  body main .steps_container--content--info--hotel--wrapper--title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 18px;
+    margin-bottom: 13px;
+  }
+  body main .steps_container--content--info--hotel--wrapper--desc {
+    display: none;
+  }
+  body main .steps_container--content--info--hotel--wrapper--mobiledesc {
+    display: block;
+  }
+  body main .steps_container--content--info--hotel--wrapper--more {
+    display: block;
+  }
+  body main .steps_container--content--info--hotel--travelthere {
+    max-width: 314px;
+    flex-direction: column;
+  }
+  body main .steps_container--content--info--hotel--travelthere--video--itself {
+    width: 314px;
+  }
+  body main .steps_container--content--info--hotel--travelthere--video--play {
+    top: 90px;
+    right: 143px;
+    bottom: 90px;
+    left: 147px;
+  }
+  body main .steps_container--content--info--hotel--travelthere--details {
+    max-width: 314px;
+  }
+  body main .steps_container--content--info--hotel--travelthere--details--title {
+    display: none;
+  }
+  body main .steps_container--content--info--hotel--travelthere--details--desc {
+    display: none;
+  }
+  body main .steps_container--content--info--hotel--travelthere--details--mobiledesc {
+    display: block;
+    margin-top: 40px;
+  }
+  body main .steps_container--content--info--hotel--travelthere--details--more {
+    display: block;
+    margin-bottom: 32px;
+  }
+  body main .steps_container--content--info--button {
+    display: none;
+  }
+  body .footer {
+    padding-top: 145px;
+    padding-bottom: 83px;
+  }
+  body .footer_scrolltotop {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    margin-top: -186px;
+  }
+  body .footer_container {
+    max-width: 204px;
+    margin-top: 83px;
+  }
+  body .footer_container--content {
+    gap: 36px;
+    flex-direction: column;
+  }
+  body .footer_container--content--nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
+  body .footer_container--content--nav a {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 22.94px;
+    line-height: 35.69px;
+    letter-spacing: 0.64px;
+  }
+  body .footer_container--media {
+    margin-top: 36px;
+    max-width: 204px;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
+  body .footer_container--media--socials {
+    max-width: 190px;
+  }
+  body .footer_container--media--socials a img {
+    width: 31px;
+    height: 31px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(img/grandcanyon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header_top {
+  width: 100%;
+  max-width: 1751px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+}
+.header_top--container {
+  width: 100%;
+  max-width: 1502px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_top--container--nav {
+  width: 100%;
+  max-width: 572px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_top--container--nav a {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header_top--container--interact {
+  width: 100%;
+  max-width: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_top--container--interact--menu {
+  display: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.header_top--menu {
+  display: none;
+}
+.header_explore {
+  width: 100%;
+  max-width: 1686px;
+  margin: 0 auto;
+  margin-top: 135px;
+  margin-bottom: 160px;
+}
+.header_explore--container {
+  width: 100%;
+  max-width: 835px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_explore--container--slider--number {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1019607843);
+  transform: rotate(-90deg);
+  margin-top: 20px;
+}
+.header_explore--container--content--title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 130px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 628px;
+  margin-bottom: 28px;
+}
+.header_explore--container--content--button {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #DD2242;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 26px 64px;
+  border-radius: 211px;
+}
+.header_info {
+  display: flex;
+}
+.header_info--letters {
+  width: 100%;
+  max-width: 212px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  width: 212px;
+}
+.header_info--letters--text {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1019607843);
+  transform-origin: top left;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 44px;
+  left: 65px;
+  width: 100%;
+  max-width: 131px;
+}
+.header_info--container {
+  width: 100%;
+  max-width: 1642px;
+  display: flex;
+  align-items: flex-end;
+}
+.header_info--container--content {
+  width: 100%;
+  max-width: 1225px;
+  background-color: #000000;
+  opacity: 70%;
+}
+.header_info--container--content--wrapper {
+  width: 100%;
+  max-width: 1026px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.header_info--container--content--wrapper--infobox {
+  width: 100%;
+  max-width: 210px;
+}
+.header_info--container--content--wrapper--infobox--number {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #DD2242;
+  margin-bottom: 14px;
+}
+.header_info--container--content--wrapper--infobox--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 26.41px;
+  line-height: 41.08px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.header_info--container--content--wrapper--infobox--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #939393;
+}
+.header_info--container--video {
+  position: relative;
+}
+.header_info--container--video--play {
+  position: absolute;
+  top: 88px;
+  left: 169px;
+  right: 170px;
+  bottom: 88px;
+  padding: 17px 17px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5019607843);
+}
+
+main .articles {
+  background: linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%);
+}
+main .articles_walkways {
+  background: linear-gradient(rgba(1, 10, 32, 0.7), rgba(1, 10, 32, 0.7)), url(img/bghills.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 207px;
+  padding-bottom: 97px;
+}
+main .articles_walkways--container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .articles_walkways--container--content {
+  width: 100%;
+  max-width: 479px;
+}
+main .articles_walkways--container--content--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+main .articles_walkways--container--content--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1%;
+  color: #E0E0E0;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 400px;
+}
+main .articles_walkways--container--content--mobiledesc {
+  display: none;
+}
+main .articles_walkways--container--content--button {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  border: none;
+  outline: none;
+  border-radius: 32px;
+  padding: 16px 40px;
+}
+main .articles_beaches {
+  background: linear-gradient(rgba(1, 10, 32, 0.7), rgba(1, 10, 32, 0.7)), url(img/bgpalms.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 106px;
+  padding-bottom: 305px;
+}
+main .articles_beaches--container {
+  width: 100%;
+  max-width: 1302px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .articles_beaches--container--content {
+  width: 100%;
+  max-width: 479px;
+}
+main .articles_beaches--container--content--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+main .articles_beaches--container--content--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1%;
+  color: #E0E0E0;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 400px;
+}
+main .articles_beaches--container--content--mobiledesc {
+  display: none;
+}
+main .articles_beaches--container--content--button {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  border: none;
+  outline: none;
+  border-radius: 32px;
+  padding: 16px 40px;
+}
+main .explore {
+  background-image: url(img/lonewarrior.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 127px;
+}
+main .explore_container {
+  position: relative;
+  max-width: 1277px;
+  margin: auto;
+  padding-bottom: 886px;
+}
+main .explore_container--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #010A20;
+  margin-bottom: 45px;
+}
+main .explore_container--slider {
+  position: relative;
+  width: 100%;
+  max-width: 1277px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+}
+main .explore_container--slider--slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 3021px;
+}
+main .explore_container--slider--slides--slide {
+  min-width: 405px;
+  max-width: 405px;
+  margin-right: 31px;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+main .explore_container--slider--slides--slide:last-child {
+  margin-right: 0;
+}
+main .explore_container--slider--dots {
+  text-align: center;
+  margin-top: 28px;
+}
+main .explore_container--slider--dots--dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #85A3B2;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+main .explore_container--slider--dots--dot.active {
+  background-color: #DD2242;
+  width: 40px;
+  border-radius: 10px;
+}
+main .explore_container--previous, main .explore_container--next {
+  position: absolute;
+  top: 21%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+main .explore_container--previous svg, main .explore_container--next svg {
+  width: 14px;
+  height: 23px;
+  fill: #020B20;
+}
+main .explore_container--previous {
+  left: -35px;
+}
+main .explore_container--next {
+  right: -35px;
+}
+main .explore_numbers {
+  background-color: #020C21;
+  opacity: 90%;
+  padding-top: 201px;
+  padding-bottom: 225px;
+}
+main .explore_numbers--info {
+  width: 100%;
+  max-width: 485px;
+  margin: 0 auto;
+}
+main .explore_numbers--info--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+main .explore_numbers--info--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #E0E0E0;
+}
+main .explore_numbers--container {
+  width: 100%;
+  max-width: 1275px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 39px;
+}
+main .explore_numbers--container--content {
+  width: 340px;
+}
+main .explore_numbers--container--content--number {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 42.14px;
+  line-height: 49.16px;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: #DD2242;
+  margin-bottom: 18px;
+}
+main .explore_numbers--container--content--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #E0E0E0;
+}
+main .explore_numbers--container--content:nth-child(2) .explore_numbers--container--content--desc {
+  width: 370px;
+}
+main .unbelievable {
+  background-image: url(img/whangaehu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 248px;
+  padding-bottom: 256px;
+}
+main .unbelievable_container {
+  width: 100%;
+  max-width: 614px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .unbelievable_container--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 32px;
+}
+main .unbelievable_container--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 36px;
+  color: #6F7787;
+  width: 470px;
+}
+main .unbelievable_container--mobiledesc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #6F7787;
+  display: none;
+}
+main .unbelievable_container--button {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 18px 56px;
+  background-color: #DD2242;
+  border: none;
+  outline: none;
+  border-radius: 122px;
+  cursor: pointer;
+}
+main .news {
+  background-image: linear-gradient(rgba(2, 12, 33, 0.46), rgba(2, 12, 33, 0.46)), url(img/palmsbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #020C21;
+  padding-top: 141px;
+  padding-bottom: 210px;
+}
+main .news_container {
+  width: 100%;
+  max-width: 1285px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .news_container--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 1056px;
+  margin-bottom: 67px;
+}
+main .news_container--video {
+  position: relative;
+}
+main .news_container--video--play {
+  position: absolute;
+  top: 249px;
+  right: 480px;
+  font-family: FontAwesome;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 41px 46px;
+  background-color: #E93A7D;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+main .news_container--other {
+  width: 100%;
+  max-width: 1285px;
+  margin: 0 auto;
+  margin-top: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+main .news_container--other--novelty {
+  width: 100%;
+  max-width: 604px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .news_container--other--novelty--img {
+  position: relative;
+}
+main .news_container--other--novelty--img--play {
+  position: absolute;
+  top: 61px;
+  right: 107px;
+  cursor: pointer;
+}
+main .news_container--other--novelty--info {
+  width: 100%;
+  max-width: 334px;
+}
+main .news_container--other--novelty--info--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+main .news_container--other--novelty--info--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  opacity: 70%;
+}
+main .news_container--other--novelty:nth-child(2) .news_container--other--novelty--info--desc {
+  width: 325px;
+}
+main .gallery_title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #010A20;
+  margin-top: 177px;
+  margin-bottom: 41px;
+}
+main .gallery_desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1%;
+  text-align: center;
+  color: #6F7787;
+  width: 511px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 71px;
+}
+main .gallery_container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  gap: 30px;
+  margin-bottom: 229px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 210px 130px 130px 210px;
+  grid-template-areas: "india volcano china" "india blueland china" "india blueland coast" "beach blueland coast";
+}
+main .gallery_container--india {
+  grid-area: india;
+}
+main .gallery_container--beach {
+  grid-area: beach;
+}
+main .gallery_container--volcano {
+  grid-area: volcano;
+}
+main .gallery_container--blueland {
+  grid-area: blueland;
+}
+main .gallery_container--china {
+  grid-area: china;
+}
+main .gallery_container--coast {
+  grid-area: coast;
+}
+main .steps {
+  background-color: #DCE8F2;
+  padding-top: 119px;
+  padding-bottom: 117px;
+}
+main .steps_container {
+  width: 100%;
+  max-width: 1162px;
+  margin: 0 auto;
+}
+main .steps_container--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #010A20;
+  margin-bottom: 44px;
+}
+main .steps_container--content {
+  width: 100%;
+  max-width: 1162px;
+  display: flex;
+  justify-content: space-between;
+}
+main .steps_container--content--linensteps {
+  background-image: url(img/Line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  max-height: 890px;
+}
+main .steps_container--content--linensteps--numberone {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 26.41px;
+  line-height: 38.15px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  padding: 12px 27px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin-bottom: 220px;
+}
+main .steps_container--content--linensteps--numbertwo {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 26.41px;
+  line-height: 38.15px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin-bottom: 495px;
+}
+main .steps_container--content--linensteps--numberthree {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 26.41px;
+  line-height: 38.15px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+main .steps_container--content--info {
+  width: 100%;
+  max-width: 1059px;
+}
+main .steps_container--content--info--box--step {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 26.41px;
+  line-height: 38.15px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  background-color: #DD2242;
+  padding: 10px 24px;
+  border-radius: 50%;
+  display: none;
+}
+main .steps_container--content--info--box--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 26.41px;
+  line-height: 41.08px;
+  letter-spacing: 0px;
+  color: #010A20;
+  padding-top: 15px;
+  margin-bottom: 28px;
+}
+main .steps_container--content--info--box--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 23.47px;
+  line-height: 38.15px;
+  letter-spacing: 0px;
+  color: rgba(21, 20, 57, 0.4);
+}
+main .steps_container--content--info--box--mobiledesc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+  display: none;
+}
+main .steps_container--content--info--box--more {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #dd2242;
+  text-decoration: none;
+  display: none;
+}
+main .steps_container--content--info--hotel {
+  margin-top: 94px;
+  margin-bottom: 97px;
+}
+main .steps_container--content--info--hotel--wrapper--step {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 26.41px;
+  line-height: 38.15px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  padding: 10px 22px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  display: none;
+}
+main .steps_container--content--info--hotel--wrapper--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 26.41px;
+  line-height: 41.08px;
+  letter-spacing: 0px;
+  color: #010A20;
+  margin-bottom: 28px;
+}
+main .steps_container--content--info--hotel--wrapper--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 23.47px;
+  line-height: 38.15px;
+  letter-spacing: 0px;
+  color: rgba(21, 20, 57, 0.4);
+  margin-bottom: 94px;
+}
+main .steps_container--content--info--hotel--wrapper--mobiledesc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+  display: none;
+}
+main .steps_container--content--info--hotel--wrapper--more {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #dd2242;
+  text-decoration: none;
+  display: none;
+}
+main .steps_container--content--info--hotel--travelthere {
+  width: 100%;
+  max-width: 740px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .steps_container--content--info--hotel--travelthere--video {
+  position: relative;
+}
+main .steps_container--content--info--hotel--travelthere--video--play {
+  position: absolute;
+  top: 73px;
+  right: 110px;
+  bottom: 69px;
+  left: 121px;
+}
+main .steps_container--content--info--hotel--travelthere--details {
+  width: 100%;
+  max-width: 446px;
+}
+main .steps_container--content--info--hotel--travelthere--details--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 26.41px;
+  line-height: 41.08px;
+  letter-spacing: 0px;
+  color: #010A20;
+  margin-bottom: 12px;
+}
+main .steps_container--content--info--hotel--travelthere--details--desc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 23.47px;
+  line-height: 38.15px;
+  letter-spacing: 0px;
+  color: rgba(21, 20, 57, 0.4);
+}
+main .steps_container--content--info--hotel--travelthere--details--mobiledesc {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+  display: none;
+}
+main .steps_container--content--info--hotel--travelthere--details--more {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #dd2242;
+  text-decoration: none;
+  display: none;
+}
+main .steps_container--content--info--button {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 18px 56px;
+  border-radius: 122px;
+  background-color: #DD2242;
+  border: none;
+  outline: none;
+  margin-top: 17px;
+}
+
+.footer {
+  background-color: #010A20;
+  position: relative;
+  padding-top: 39px;
+  padding-bottom: 31px;
+}
+.footer_scrolltotop {
+  position: absolute;
+  top: -57px;
+  right: 99px;
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 41px 33px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #DD2242;
+  cursor: pointer;
+}
+.footer_container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_container--content {
+  width: 100%;
+  max-width: 653px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_container--content--nav {
+  width: 100%;
+  max-width: 355px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_container--content--nav a {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer_container--media {
+  width: 100%;
+  max-width: 324px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_container--media--socials {
+  width: 100%;
+  max-width: 116px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_container--media--copyright {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
