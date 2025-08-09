@@ -807,6 +807,13 @@
     height: 31px;
   }
 }
+@media (min-width: 420px) and (max-width: 768px) {
+  .unbelievable {
+    background-image: url(img/whangaehu.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 * {
   margin: 0;
   padding: 0;
