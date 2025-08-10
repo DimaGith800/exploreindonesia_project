@@ -1022,11 +1022,8 @@
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5019607843);
 }
 
-main .articles {
-  background: linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%);
-}
 main .articles_walkways {
-  background: linear-gradient(rgba(1, 10, 32, 0.7), rgba(1, 10, 32, 0.7)), url(img/bghills.png);
+  background: linear-gradient(0deg, #010A20 0%, rgba(1, 10, 32, 0) 100%), linear-gradient(rgba(1, 10, 32, 0.5), rgba(1, 10, 32, 0.5)), url(img/bghills.png), rgba(1, 10, 32, 0.7);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 207px;
@@ -1081,7 +1078,7 @@ main .articles_walkways--container--content--button {
   padding: 16px 40px;
 }
 main .articles_beaches {
-  background: linear-gradient(rgba(1, 10, 32, 0.7), rgba(1, 10, 32, 0.7)), url(img/bgpalms.png);
+  background: linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%), linear-gradient(rgba(1, 10, 32, 0.7), rgba(1, 10, 32, 0.6)), url(img/bgpalms.png), rgba(1, 10, 32, 0.7);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 106px;
