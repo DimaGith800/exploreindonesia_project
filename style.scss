@@ -9,8 +9,9 @@
 
 .header {
     background: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(img/grandcanyon.png);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
 
     &_top {
@@ -377,8 +378,9 @@ main {
 
     .explore {
         background-image: url(img/lonewarrior.png);
-        background-repeat: no-repeat;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         padding-top: 127px;
 
         &_container {
@@ -625,6 +627,7 @@ main {
         background-image: linear-gradient(rgba(2, 12, 33, 0.46), rgba(2, 12, 33, 0.46)), url(img/palmsbg.png);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
         background-color: #020C21;
         padding-top: 141px;
         padding-bottom: 210px;

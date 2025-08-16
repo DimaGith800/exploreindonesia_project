@@ -472,7 +472,7 @@
   }
   body main .explore_container {
     max-width: 358px;
-    padding-bottom: 695px;
+    padding-bottom: 942px;
   }
   body main .explore_container--title {
     font-family: DM Sans;
@@ -498,7 +498,7 @@
     right: 2px;
   }
   body main .explore_container--previous, body main .explore_container--next {
-    top: 22%;
+    top: 18%;
   }
   body main .explore_numbers {
     padding-top: 72px;
@@ -822,8 +822,9 @@
 
 .header {
   background: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(img/grandcanyon.png);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
 }
 .header_top {
@@ -1134,8 +1135,9 @@ main .articles_beaches--container--content--button {
 }
 main .explore {
   background-image: url(img/lonewarrior.png);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 127px;
 }
 main .explore_container {
@@ -1350,6 +1352,7 @@ main .news {
   background-image: linear-gradient(rgba(2, 12, 33, 0.46), rgba(2, 12, 33, 0.46)), url(img/palmsbg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-color: #020C21;
   padding-top: 141px;
   padding-bottom: 210px;
